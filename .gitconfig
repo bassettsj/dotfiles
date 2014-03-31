@@ -1,7 +1,7 @@
 [user]
     name = Steven Bassett
     email = steven.j.bassett@gmail.com
-    editor = subl
+    editor = st
 [alias]
     # Add
     ad = add

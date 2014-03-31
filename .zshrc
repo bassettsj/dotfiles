@@ -3,7 +3,7 @@
 ZSH="/Users/steven/.dotfiles/.oh-my-zsh"
 
 # -- Editor --------------------------------------------------------------------
-EDITOR="subl"
+EDITOR="st"
 
 # -- Theme ---------------------------------------------------------------------
 # Set name of the theme to load.
@@ -18,7 +18,7 @@ ZSH_THEME="agnoster"
 #
 # Which plugins would you like to load?
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(ant git history-substring-search z zsh-syntax-highlighting sublime)
+plugins=(ant git history-substring-search z zsh-syntax-highlighting sublime osx)
 
 # -- Oh My Zsh -----------------------------------------------------------------
 source $ZSH/oh-my-zsh.sh
@@ -42,3 +42,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # -- Update --------------------------------------------------------------------
 dotfiles
+
+# -- Jump Bookmarks --------------------------------------------------------------------
+source `jump-bin --zsh-integration`
