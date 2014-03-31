@@ -10,7 +10,7 @@ EDITOR="subl"
 # Look in /Users/steven/.dotfiles/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="dracula"
+ZSH_THEME="agnoster"
 
 # -- Plugins -------------------------------------------------------------------
 # Plugins can be found in /Users/steven/.dotfiles/.oh-my-zsh/plugins/
@@ -18,7 +18,7 @@ ZSH_THEME="dracula"
 #
 # Which plugins would you like to load?
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(ant git history-substring-search z zsh-syntax-highlighting)
+plugins=(ant git history-substring-search z zsh-syntax-highlighting sublime)
 
 # -- Oh My Zsh -----------------------------------------------------------------
 source $ZSH/oh-my-zsh.sh
