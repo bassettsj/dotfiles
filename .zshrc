@@ -18,7 +18,7 @@ ZSH_THEME="agnoster"
 #
 # Which plugins would you like to load?
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(ant git history-substring-search z zsh-syntax-highlighting sublime osx)
+plugins=(ant git history-substring-search z zsh-syntax-highlighting sublime osx rbenv bower npm vagrant)
 
 # -- Oh My Zsh -----------------------------------------------------------------
 source $ZSH/oh-my-zsh.sh
