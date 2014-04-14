@@ -3,7 +3,7 @@
 ZSH="/Users/steven/.dotfiles/.oh-my-zsh"
 
 # -- Editor --------------------------------------------------------------------
-EDITOR="st"
+EDITOR="atom"
 
 # -- Theme ---------------------------------------------------------------------
 # Set name of the theme to load.
@@ -38,10 +38,6 @@ fi
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
-
-# -- Update --------------------------------------------------------------------
-dotfiles
 
 # -- Jump Bookmarks --------------------------------------------------------------------
 source `jump-bin --zsh-integration`
