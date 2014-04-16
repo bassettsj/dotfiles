@@ -72,5 +72,5 @@
     # the usual default is to push all branches
     default = tracking
 [core]
-    excludesfile = ~/.gitignore_global
-	editor = atom --wait
+  excludesfile = ~/.gitignore_global
+	editor = atom

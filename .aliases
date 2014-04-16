@@ -9,3 +9,9 @@ alias v='vagrant'
 
 # -- Drush ----------------------------------------------------------------------
 alias d='drush'
+
+# -- ATOM text editor ----------------------------------------------------------
+alias a='atom'
+
+alias show-files='defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder'
+alias hide-files='defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder'
