@@ -11,6 +11,8 @@ EDITOR="atom"
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="agnoster"
+DEFAULT_USER="steven"
+
 
 # -- Plugins -------------------------------------------------------------------
 # Plugins can be found in /Users/steven/.dotfiles/.oh-my-zsh/plugins/
