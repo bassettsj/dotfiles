@@ -13,3 +13,7 @@
 #     'prefix': 'log'
 #     'body': 'console.log $1'
 #
+'.source':
+  'Doc Block':
+    'prefix': '/**'
+    'body' : "/**\n * $1 \n *\n */"

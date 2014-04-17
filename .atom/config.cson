@@ -1,7 +1,7 @@
 'editor':
-  'fontSize': 14
   'softWrap': true
   'showIndentGuide': true
+  'fontSize': 14
 'core':
   'themes': [
     'atom-dark-ui'
@@ -15,7 +15,7 @@
 'exception-reporting':
   'userId': '4e7098b2-f92f-617a-e2ba-6e9826d77d7a'
 'release-notes':
-  'viewedVersion': '0.86.0'
+  'viewedVersion': '0.89.0'
 'welcome':
   'showOnStartup': false
 'metrics':
@@ -35,3 +35,10 @@
 'autoclose-html': {}
 'open-terminal-here':
   'app': 'iTerm.app'
+'coffee-compile':
+  'grammars': [
+    'source.coffee'
+    'source.litcoffee'
+    'text.plain'
+    'text.plain.null-grammar'
+  ]
