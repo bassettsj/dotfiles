@@ -16,3 +16,7 @@
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
+
+
+'.platform-darwin .pane .editor:not(.mini)':
+  'cmd-/': 'editor:toggle-line-comments'

@@ -8,8 +8,11 @@
     aa = add .
 
     # Commit
+    c = commit
     cm = commit -m
-    ca = commit --amend -m
+    ca = commit --amend --no-edit
+    cam = commit --amend -m
+
 
     # Checkout
     co = checkout
@@ -73,4 +76,4 @@
     default = tracking
 [core]
   excludesfile = ~/.gitignore_global
-	editor = atom --wait
+	editor = vim

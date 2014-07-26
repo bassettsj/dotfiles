@@ -9,9 +9,15 @@ alias v='vagrant'
 
 # -- Drush ----------------------------------------------------------------------
 alias d='drush'
+alias drupalcs='phpcs --standard=$HOME/.composer/vendor/drupal/coder/coder_sniffer/Drupal'
+
 
 # -- ATOM text editor ----------------------------------------------------------
 alias a='atom'
 
+# -- compass
+alias compass-prod='compass compile --output-style compressed --force'
+
+# -- Finder Aliases
 alias show-files='defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder'
 alias hide-files='defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder'

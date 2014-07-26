@@ -20,7 +20,7 @@ DEFAULT_USER="steven"
 #
 # Which plugins would you like to load?
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(ant git history-substring-search z zsh-syntax-highlighting sublime osx rbenv bower npm vagrant)
+plugins=(ant git history-substring-search z zsh-syntax-highlighting sublime osx rbenv bower npm vagrant github)
 
 # -- Oh My Zsh -----------------------------------------------------------------
 source $ZSH/oh-my-zsh.sh
@@ -37,9 +37,13 @@ if [[ -f "$HOME/.aliases" ]]; then
 fi
 
 # -- Rbenv ---------------------------------------------------------------------
-export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:/usr/local/lib/node_modules/phantomjs:$PATH"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
 eval "$(rbenv init -)"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-# -- Jump Bookmarks --------------------------------------------------------------------
+# -- Jump Bookmarks ------------------------------------------------------------
 source `jump-bin --zsh-integration`
+
+#--- Grunt Autocomplete --------------------------------------------------------
+eval "$(grunt --completion=zsh)"

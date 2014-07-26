@@ -17,3 +17,15 @@
   'Doc Block':
     'prefix': '/**'
     'body' : "/**\n * $1 \n *\n */"
+'.source.coffee':
+  'jQuery Closure':
+    'prefix': '($)'
+    'body': '(($)->\n\n)(jQuery)'
+'.source.php':
+  'php opening':
+    'prefix':'<?'
+    'body': '<?php?>'
+'.source.markdown':
+  'markdown attribute comment':
+    'prefix': '<!-- .el'
+    'body': '<!-- .element: class="fragment" data-index-"0" -->'
