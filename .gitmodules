@@ -1,9 +1,6 @@
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
-[submodule "themes/solarized"]
-	path = themes/solarized
-	url = https://github.com/altercation/solarized
 [submodule ".rbenv"]
 	path = .rbenv
 	url = https://github.com/sstephenson/rbenv.git
