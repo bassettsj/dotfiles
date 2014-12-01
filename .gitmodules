@@ -4,3 +4,6 @@
 [submodule "themes/solarized"]
 	path = themes/solarized
 	url = https://github.com/altercation/solarized
+[submodule ".rbenv"]
+	path = .rbenv
+	url = https://github.com/sstephenson/rbenv.git
